@@ -11,7 +11,7 @@
 // var phi = 3.14
 // var r = 12
 
-// let volume (1/2 * phi x r**3);
+// let volume = 1/2 * phi * r**3;
 // console.log(volume);
 
 /**
@@ -42,15 +42,15 @@
  * 
  * */
 
-var name = "admin";
-var status = true;
-// random dari angka 1-9
-var number;
+// var name = "admin";
+// var status = true;
+// // random dari angka 1-9
+// var number;
 
-let result = '';
-if (result) {
-    status = true;
-    } 
+// let result = '';
+// if (result) {
+//     status = true;
+//     } 
 
 
 
