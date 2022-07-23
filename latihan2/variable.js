@@ -24,9 +24,8 @@
  * Selamat belajar, Vincent!
  *
  * */
-
-// let word ="Selamat belajar, Vincent!"
-// console.log(word);
+// var nama = "vincent"
+// console.log("Selamat belajar," + nama);
 
 /**
  * SOAL 3
@@ -42,15 +41,19 @@
  * 
  * */
 
-// var name = "admin";
-// var status = true;
-// // random dari angka 1-9
-// var number;
+var name = "admin";
+var status = true;
+// random dari angka 1-9
+var number;
+// math.random()
+// math.floor () pembulatan biasa (rounddown)
+// console.log(math.random);
 
-// let result = '';
-// if (result) {
-//     status = true;
-//     } 
+var angkaRandom = Math.floor(Math.random() * 9) + 1
+
+var result = name + angkaRandom + status
+console.log(result);
+
 
 
 
