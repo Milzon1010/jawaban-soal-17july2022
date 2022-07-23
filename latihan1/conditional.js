@@ -17,18 +17,18 @@
  */ 
 
 
-let level = 75;
-if (level >100){
-    console.log("You are expert")
-} else if (level >70 && level<=100){
-    console.log("You are Pro")
-} else if (level >50 && level<70){
-    console.log("You are Normal")
-} else if (level >30 && level<50){
-    console.log("You are Basic")
-} else if(level <30){
-    console.log("you are Begineer")
-}
+// let level = 75;
+// if (level >100){
+//     console.log("You are expert")
+// } else if (level >70 && level<=100){
+//     console.log("You are Pro")
+// } else if (level >50 && level<70){
+//     console.log("You are Normal")
+// } else if (level >30 && level<50){
+//     console.log("You are Basic")
+// } else if(level <30){
+//     console.log("you are Begineer")
+// }
 
 
 /**
@@ -120,3 +120,4 @@ list nya:
 //          break;
 //  }
 //  console.log("Total yang dibayar adalah Rp. " + total)
+
