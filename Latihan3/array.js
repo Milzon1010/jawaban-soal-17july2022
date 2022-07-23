@@ -26,7 +26,7 @@ let koleksi = 0;
 
 for (let i = 0; i < watches.length; i++) {
     if (watches[i] !== ' ') {
-        koleksi = 
+        koleksi += watches[i]
     } else { 
         console.log("saya punya " + koleksi)
         koleksi = ''
