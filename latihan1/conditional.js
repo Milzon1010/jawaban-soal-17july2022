@@ -17,18 +17,18 @@
  */ 
 
 
-// let power = 75;
-// if (level >100){
-//     console.log("You are expert")
-// } else if (level >70 && <=100){
-//     console.log("You are Pro")
-// } else if (level >50 & <70){
-//     console.log("You are Normal")
-// } else if (level >30 & >50){
-//     console.log("You are Basic")
-// } else if(level <30){
-//     console.log("you are Begineer")
-// }
+let level = 75;
+if (level >100){
+    console.log("You are expert")
+} else if (level >70 && level<=100){
+    console.log("You are Pro")
+} else if (level >50 && level<70){
+    console.log("You are Normal")
+} else if (level >30 && level<50){
+    console.log("You are Basic")
+} else if(level <30){
+    console.log("you are Begineer")
+}
 
 
 /**
@@ -94,29 +94,29 @@ list nya:
  * */ 
 
 
- let price = 90000
- let coupon = "FreeOngkir"
- let total;
+//  let price = 90000
+//  let coupon = "FreeOngkir"
+//  let total;
  
- switch (coupon) {
-     case "FreeOngkir":
-         if (price >= 50000) {
-             total = price - price * 0.1
-         } else if (price >= 30000 && price <= 50000) {
-             total = price - price * 0.05
-         } else {
-             total = price - price * 0.025
-         }
-         break;
-     case 'Free15%':
-         if(price >= 30000){
-             total = price - price*0.15
-         } else {
-             total = price
-         }
-         break;
-     default:
-         console.log("Coupon is not available!")
-         break;
- }
- console.log("Total yang dibayar adalah Rp. " + total)
+//  switch (coupon) {
+//      case "FreeOngkir":
+//          if (price >= 50000) {
+//              total = price - price * 0.1
+//          } else if (price >= 30000 && price <= 50000) {
+//              total = price - price * 0.05
+//          } else {
+//              total = price - price * 0.025
+//          }
+//          break;
+//      case 'Free15%':
+//          if(price >= 30000){
+//              total = price - price*0.15
+//          } else {
+//              total = price
+//          }
+//          break;
+//      default:
+//          console.log("Coupon is not available!")
+//          break;
+//  }
+//  console.log("Total yang dibayar adalah Rp. " + total)

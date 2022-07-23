@@ -61,12 +61,12 @@ for (var i = 0; i < num; i++) {
  * */ 
 
 
-var num = 5;
-var temp = "";
-for (var i = 0; i < num; i++){
-    for (var j = 0; j< num; j++){
-        temp += "#"
-    }
-    console.log(temp)
-    temp = ""
-}
+// var num = 5;
+// var temp = "";
+// for (var i = 0; i < num; i++){
+//     for (var j = 0; j< num; j++){
+//         temp += "#"
+//     }
+//     console.log(temp)
+//     temp = ""
+// }
