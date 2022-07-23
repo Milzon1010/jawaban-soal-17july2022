@@ -22,8 +22,6 @@ let arloji = ['A', 'B', 'C', 'D','E']
 
 let watches = ["Swiss Army","Daniel Wellington","Dublot"]
 let koleksi = 0;
-
-
 for (let i = 0; i < watches.length; i++) {
     if (watches[i] !== ' ') {
         koleksi += watches[i]
@@ -35,7 +33,6 @@ for (let i = 0; i < watches.length; i++) {
         console.log("saya punya " + koleksi);
     }
 }
-
 /**
  * Latihan 2
  * 
