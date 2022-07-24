@@ -20,19 +20,17 @@ let arloji = ['A', 'B', 'C', 'D','E']
 
  * */ 
 
-let watches = ["Swiss Army","Daniel Wellington","Dublot"]
-let koleksi = 0;
-for (let i = 0; i < watches.length; i++) {
-    if (watches[i] !== ' ') {
-        koleksi += watches[i]
-    } else { 
-        console.log("saya punya " + koleksi)
-        koleksi = ''
-    }
-    if (i === watches.length - 1) {
-        console.log("saya punya " + koleksi);
-    }
-}
+// let watches = ["Swiss Army","Daniel Wellington","Dublot"]
+// let temp = ['']
+
+// for (var i=0; i< watches.length; i++){
+//     // console.log(watches[i]);
+//     if (watches == ''){
+//   for (var j=0; j< temp ['']; j++){
+//       console.log('Saya Punya +')
+//     }
+// }
+// console.log("saya punya " + watches[i]);
 /**
  * Latihan 2
  * 
@@ -50,4 +48,4 @@ for (let i = 0; i < watches.length; i++) {
  * 
  * */ 
 
-let fruits = ["cherry","blueberry","avocado","apple","cranberry"]
+// let fruits = ["cherry","blueberry","avocado","apple","cranberry"]
